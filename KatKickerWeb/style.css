@@ -1,0 +1,70 @@
+.playbutton{
+    background-color: #b4dbf0;
+    transition: 0.3s;                      
+}
+.playbutton:hover{
+    background-color: rgb(83, 154, 192);
+}
+.playbutton:not(:hover){
+    background-color: #a2d4ee;
+}
+.articlepic{
+    transition: 0.3s;
+}
+.articleright:hover .articlepic{
+    opacity:1;
+    transform: scale(1.02) !important;
+}
+@media(min-width: 1000px){
+    .articlepic{
+        border-radius: 5px;
+        opacity:0.5;
+        width: 100px !important;;
+        height :85px !important;
+    }
+}
+
+@media(max-width: 1000px){
+
+    .articlepic{
+        border-radius: 5px;
+        opacity:0.5;
+    }
+
+.carpic{
+   display: none !important;
+
+}}
+.border-modifier{
+border: 10px!important;
+border-color: black;
+}
+.hover-stretch{
+    transition: 0.3s;
+}
+.hover-stretch:hover{
+    background-color: #9bbec88e;
+}
+
+.hover-stretch:hover .developers-photo {
+    transform: scale(1.05)!important;
+    opacity: 1!important;
+}
+
+.developers-photo {
+    border-radius: 10px;
+    height: 250px;
+    width: 200px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.btnoutlinep {
+    border-color: #001B79; 
+    color: #001B79; 
+  }
+
+  .btnoutlines {
+    border-color: #1640D6;
+    color:  #1640D6;
+  }
